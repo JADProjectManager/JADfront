@@ -11,7 +11,7 @@ export class UsersService extends ServiceRestBase<User> {
 
 
     constructor(http: HttpClient) {
-        super('/users', http);
+        super('/api/users', http);
     }
 
     getUsers(options?: Options): Observable<User[]> {
@@ -33,4 +33,5 @@ export class UsersService extends ServiceRestBase<User> {
     updateUser(objToUpdate: any | User, options?: Options): Observable<User[] | User> {
         return super.update(objToUpdate, options);
     }
+
 }
