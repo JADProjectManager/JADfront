@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Options, ServiceRestBase} from '../service.base';
+import {Options, ServiceRestBase} from '../service-base';
 import {User} from '../../models/user/user.model';
 import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
