@@ -1,0 +1,18 @@
+
+@import "global";
+
+.hide-mobile{
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.not-mobile{
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.not-link{
+  cursor: pointer;
+}
