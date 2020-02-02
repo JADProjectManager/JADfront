@@ -1,4 +1,4 @@
-# JADfront
+# JADfront [![Actions Status](https://github.com/JADProjectManager/JADfront/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/JADProjectManager/JADfront/actions)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.3.
 
