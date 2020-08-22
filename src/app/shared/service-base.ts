@@ -49,8 +49,7 @@ export class ServiceRestBase<T> {
     }
 
     update(objToUpdate: T | any, options?: Options ): Observable<T | T[]> {
-        console.log (`${this.url}/${objToUpdate.id}`);
-        return this.http.get<T[]>(`${this.url}`, options);
+        return this.http.put<T | T[]>(`${this.url}/${objToUpdate.id}`, objToUpdate, options);
     }
 
     delete(objToDelete, options?: Options ): Observable<T | T[]> {
